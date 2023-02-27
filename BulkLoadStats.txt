@@ -1,0 +1,23 @@
+Use Case: Load Data in Database(Postgresql) with Talend Bulk Components.
+
+1. Paired Components: (tDBOutputBulk_1,tDBBulkExec_1) 
+These components need to use in pair for data upload.
+tDBOutputBulk_1: Prepare Data compatiable to sql table.
+tDBBulkExec_1: Upload data in database.
+
+
+2. Single Component: (tDBOutputBulkExec_1)
+This component work itself for preparing and uploading the data in database.
+
+Which to use: You can use anyone, but single components data load is comparatively takes less time.
+
+Stats: 
+Records: 1056319
+No of Columns: 10
+Data Size: 82MB
+Time (Paired Components): 29542 MS
+Time (Single Components): 27098 MS
+
+
+
+
